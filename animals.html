@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Animals</title>
+    <link rel="stylesheet" href="animals.css">
+</head>
+<body>
+    <header>
+        <h1>Amazing Animals</h1>
+        <p>Discover the wonderful world of animals!</p>
+        <div class="search-container">
+            <input type="text" id="searchBox" placeholder="Search animals...">
+        </div>
+    </header>
+
+    <main>
+        <section class="animal-category">
+            <h2>Wild Animals</h2>
+            <div class="section-info">
+                <h3>About Wild Animals</h3>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4>Habitat & Distribution</h4>
+                        <p>Wild animals can be found in various ecosystems across the globe, from dense rainforests to vast savannas. Each species has adapted to its specific environment over millions of years.</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>Conservation Challenges</h4>
+                        <p>Many wild animals face threats from habitat loss, climate change, and human activities. Conservation efforts are crucial for protecting these magnificent creatures for future generations.</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>Ecological Role</h4>
+                        <p>Wild animals play vital roles in maintaining ecosystem balance through predator-prey relationships, seed dispersal, and maintaining vegetation through grazing.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="animal-grid">
+                <div class="animal-card" data-category="wild">
+                    <img src="lion.jpg" alt="Lion">
+                    <h3>Lion</h3>
+                    <p>Known as the "King of the Jungle", lions are majestic big cats that live in groups called prides.</p>
+                    <div class="fun-fact">
+                        <h4>Did you know?</h4>
+                        <p>A lion's roar can be heard from up to 5 miles away!</p>
+                    </div>
+                </div>
+                <div class="animal-card" data-category="wild">
+                    <img src="elephant.jpg" alt="Elephant">
+                    <h3>Elephant</h3>
+                    <p>Elephants are the largest land animals on Earth. They're known for their intelligence and strong family bonds.</p>
+                    <div class="fun-fact">
+                        <h4>Did you know?</h4>
+                        <p>Elephants are the only mammals that can't jump!</p>
+                    </div>
+                </div>
+                <div class="animal-card" data-category="wild">
+                    <img src="girrafe.jpg" alt="Giraffe">
+                    <h3>Giraffe</h3>
+                    <p>Giraffes are the tallest living terrestrial animals, with their long necks helping them reach tree leaves.</p>
+                    <div class="fun-fact">
+                        <h4>Did you know?</h4>
+                        <p>A giraffe's tongue can be up to 50 cm long and is dark blue-black in color!</p>
+                    </div>
+                </div>
+                <div class="animal-card" data-category="wild">
+                    <img src="tiger.jpg" alt="Tiger">
+                    <h3>Tiger</h3>
+                    <p>Tigers are the largest living cat species and are easily recognized by their distinctive orange fur with black stripes.</p>
+                    <div class="fun-fact">
+                        <h4>Did you know?</h4>
+                        <p>Every tiger has its own unique stripe pattern, like human fingerprints!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="animal-category">
+            <h2>Marine Life</h2>
+            <div class="section-info">
+                <h3>About Marine Life</h3>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4>Ocean Ecosystems</h4>
+                        <p>Marine animals inhabit diverse underwater environments, from coral reefs to the deep ocean. The world's oceans cover 71% of Earth's surface and host an incredible variety of life forms.</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>Marine Conservation</h4>
+                        <p>Ocean wildlife faces challenges from pollution, overfishing, and climate change. Protecting marine habitats is essential for maintaining ocean health and biodiversity.</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>Amazing Adaptations</h4>
+                        <p>Marine animals have evolved remarkable features to survive underwater, including specialized breathing systems, pressure resistance, and unique communication methods.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="animal-grid">
+                <div class="animal-card" data-category="marine">
+                    <img src="dolphin.jpg" alt="Dolphin">
+                    <h3>Dolphin</h3>
+                    <p>Dolphins are highly intelligent marine mammals known for their playful nature and complex social structures.</p>
+                    <div class="fun-fact">
+                        <h4>Did you know?</h4>
+                        <p>Dolphins sleep with one half of their brain at a time!</p>
+                    </div>
+                </div>
+                <div class="animal-card" data-category="marine">
+                    <img src="blue whale.jpg" alt="Whale">
+                    <h3>Blue Whale</h3>
+                    <p>Blue whales are the largest animals ever known to exist, reaching lengths of up to 100 feet.</p>
+                    <div class="fun-fact">
+                        <h4>Did you know?</h4>
+                        <p>A blue whale's heart can be as large as a car!</p>
+                    </div>
+                </div>
+                <div class="animal-card" data-category="marine">
+                    <img src="octopus.jpg" alt="Octopus">
+                    <h3>Octopus</h3>
+                    <p>Octopi are incredibly intelligent creatures known for their problem-solving abilities and camouflage skills.</p>
+                    <div class="fun-fact">
+                        <h4>Did you know?</h4>
+                        <p>Octopi have three hearts and blue blood!</p>
+                    </div>
+                </div>
+                <div class="animal-card" data-category="marine">
+                    <img src="white.jpg" alt="Great White Shark">
+                    <h3>Great White Shark</h3>
+                    <p>Great white sharks are powerful predators and the largest known predatory fish in the world.</p>
+                    <div class="fun-fact">
+                        <h4>Did you know?</h4>
+                        <p>Sharks can detect a single drop of blood in 100 liters of water!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="animal-category">
+            <h2>Pets</h2>
+            <div class="section-info">
+                <h3>About Pets</h3>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4>Human-Animal Bond</h4>
+                        <p>The relationship between humans and pets dates back thousands of years. This special bond provides companionship, emotional support, and numerous health benefits for both pets and their owners.</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>Pet Care & Responsibility</h4>
+                        <p>Responsible pet ownership involves providing proper nutrition, regular veterinary care, exercise, and lots of love. Different pets have different needs and lifespans.</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>Benefits of Pet Ownership</h4>
+                        <p>Studies show that having pets can reduce stress, lower blood pressure, increase social interaction, and provide structure and routine to daily life.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="animal-grid">
+                <div class="animal-card">
+                    <img src="dog.jpg" alt="Dog">
+                    <h3>Dog</h3>
+                    <p>Dogs are known as man's best friend, offering loyalty, companionship, and unconditional love.</p>
+                </div>
+                <div class="animal-card">
+                    <img src="cat.jpg" alt="Cat">
+                    <h3>Cat</h3>
+                    <p>Cats are independent and graceful pets that have been living alongside humans for thousands of years.</p>
+                </div>
+                <div class="animal-card">
+                    <img src="parrot.jpg" alt="Parrot">
+                    <h3>Parrot</h3>
+                    <p>Parrots are intelligent birds that can mimic human speech and make wonderful companion pets.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Info Modal -->
+    <div class="modal" id="imageModal">
+        <div class="modal-content info-modal">
+            <span class="close-modal">&times;</span>
+            <div class="animal-detail-header">
+                <img id="modalMainImage" src="" alt="Animal">
+                <div class="animal-title">
+                    <h2 id="modalAnimalName"></h2>
+                    <span id="modalAnimalScientific"></span>
+                    <div id="modalConservationStatus"></div>
+                </div>
+            </div>
+            <div class="animal-info-tabs">
+                <button class="tab-button active" data-tab="characteristics">Characteristics</button>
+                <button class="tab-button" data-tab="habitat">Habitat & Range</button>
+                <button class="tab-button" data-tab="diet">Diet & Behavior</button>
+                <button class="tab-button" data-tab="facts">Interesting Facts</button>
+            </div>
+            <div class="animal-info-content" id="modalInfoContent">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Amazing Animals. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Animal information functionality
+        const modal = document.getElementById('imageModal');
+        const modalImage = document.getElementById('modalMainImage');
+        const modalAnimalName = document.getElementById('modalAnimalName');
+        const modalAnimalScientific = document.getElementById('modalAnimalScientific');
+        const modalConservationStatus = document.getElementById('modalConservationStatus');
+        const modalInfoContent = document.getElementById('modalInfoContent');
+        const closeBtn = document.querySelector('.close-modal');
+        
+        // Detailed animal information
+        const animalInfo = {
+            'Lion': {
+                scientific: 'Panthera leo',
+                conservation: 'Vulnerable',
+                characteristics: {
+                    title: 'Physical Characteristics',
+                    details: [
+                        'Adult males develop distinctive manes around their necks',
+                        'Females are typically smaller than males',
+                        'Average weight: Males 190kg, Females 130kg',
+                        'Body length: 1.4-2.0 meters (excluding tail)',
+                        'Social animals living in prides'
+                    ]
+                },
+                habitat: {
+                    title: 'Habitat & Distribution',
+                    details: [
+                        'Found in sub-Saharan Africa and small part of India',
+                        'Prefer grasslands, savannas, and open woodlands',
+                        'Territories can range from 20 to 400 square kilometers',
+                        'Require access to water sources and adequate prey',
+                        'Adapt to various climates but avoid dense forests'
+                    ]
+                },
+                diet: {
+                    title: 'Diet & Behavior',
+                    details: [
+                        'Carnivorous predators',
+                        'Main prey: antelopes, zebras, wildebeest',
+                        'Females do most of the hunting',
+                        'Hunt primarily at night and dawn/dusk',
+                        'Can eat up to 40kg in one meal'
+                    ]
+                },
+                facts: {
+                    title: 'Fascinating Facts',
+                    details: [
+                        'Cubs are born blind and start hunting at 1 year old',
+                        'A lion's roar can be heard up to 8 kilometers away'
+                        'Lions are the only social big cats'
+                        'Males can sleep up to 20 hours a day'
+                        'They can run at speeds up to 80 km/h for short distances'
+                    ]
+                }
+            },
+            'Tiger': [
+                'https://source.unsplash.com/800x600/?tiger,wild',
+                'https://source.unsplash.com/800x600/?tiger,face',
+                'https://source.unsplash.com/800x600/?tiger,stripes',
+                'https://source.unsplash.com/800x600/?tiger,cub'
+            ],
+            'Elephant': [
+                'https://source.unsplash.com/800x600/?elephant,wild',
+                'https://source.unsplash.com/800x600/?elephant,face',
+                'https://source.unsplash.com/800x600/?elephant,herd',
+                'https://source.unsplash.com/800x600/?elephant,baby'
+            ],
+            'Giraffe': [
+                'https://source.unsplash.com/800x600/?giraffe,wild',
+                'https://source.unsplash.com/800x600/?giraffe,face',
+                'https://source.unsplash.com/800x600/?giraffe,pattern',
+                'https://source.unsplash.com/800x600/?giraffe,baby'
+            ]
+        };
+
+        // Add click handlers to all animal images
+        document.querySelectorAll('.animal-card img').forEach(img => {
+            img.addEventListener('click', function() {
+                const animalName = this.closest('.animal-card').querySelector('h3').textContent;
+                openInfoModal(animalName, this.src);
+            });
+        });
+
+        // Tab functionality
+        document.querySelectorAll('.tab-button').forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons and sections
+                document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+                document.querySelectorAll('.info-section').forEach(section => section.classList.remove('active'));
+                
+                // Add active class to clicked button
+                button.classList.add('active');
+                
+                // Show corresponding content
+                const tabName = button.dataset.tab;
+                document.querySelector(`.info-section[data-tab="${tabName}"]`).classList.add('active');
+            });
+        });
+
+        function openInfoModal(animalName, initialImage) {
+            modal.style.display = 'block';
+            modalImage.src = initialImage;
+            modalAnimalName.textContent = animalName;
+            
+            const animal = animalInfo[animalName];
+            if (animal) {
+                modalAnimalScientific.textContent = animal.scientific;
+                modalConservationStatus.textContent = `Conservation Status: ${animal.conservation}`;
+                modalConservationStatus.className = `conservation-status status-${animal.conservation.toLowerCase().replace(' ', '-')}`;
+                
+                // Create content for each tab
+                modalInfoContent.innerHTML = `
+                    <div class="info-section active" data-tab="characteristics">
+                        <h3>${animal.characteristics.title}</h3>
+                        <ul class="info-list">
+                            ${animal.characteristics.details.map(detail => `<li>${detail}</li>`).join('')}
+                        </ul>
+                    </div>
+                    <div class="info-section" data-tab="habitat">
+                        <h3>${animal.habitat.title}</h3>
+                        <ul class="info-list">
+                            ${animal.habitat.details.map(detail => `<li>${detail}</li>`).join('')}
+                        </ul>
+                    </div>
+                    <div class="info-section" data-tab="diet">
+                        <h3>${animal.diet.title}</h3>
+                        <ul class="info-list">
+                            ${animal.diet.details.map(detail => `<li>${detail}</li>`).join('')}
+                        </ul>
+                    </div>
+                    <div class="info-section" data-tab="facts">
+                        <h3>${animal.facts.title}</h3>
+                        <ul class="info-list">
+                            ${animal.facts.details.map(detail => `<li>${detail}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            } else {
+                modalInfoContent.innerHTML = '<p>Detailed information coming soon!</p>';
+            }
+        }
+
+        function updateThumbnailSelection() {
+            document.querySelectorAll('.modal-thumbnail').forEach((thumb, index) => {
+                thumb.classList.toggle('active', index === currentImageIndex);
+            });
+        }
+
+        // Close modal
+        closeBtn.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        // Close on outside click
+        window.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+
+        // Navigation
+        document.querySelector('.modal-prev').addEventListener('click', () => {
+            const images = animalImages[currentAnimal] || [];
+            currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+            modalImage.src = images[currentImageIndex];
+            updateThumbnailSelection();
+        });
+
+        document.querySelector('.modal-next').addEventListener('click', () => {
+            const images = animalImages[currentAnimal] || [];
+            currentImageIndex = (currentImageIndex + 1) % images.length;
+            modalImage.src = images[currentImageIndex];
+            updateThumbnailSelection();
+        });
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (modal.style.display === 'block') {
+                if (e.key === 'Escape') {
+                    modal.style.display = 'none';
+                } else if (e.key === 'ArrowLeft') {
+                    document.querySelector('.modal-prev').click();
+                } else if (e.key === 'ArrowRight') {
+                    document.querySelector('.modal-next').click();
+                }
+            }
+        });
+    </script>
+</body>
+</html>
